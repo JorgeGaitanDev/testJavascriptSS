@@ -35,6 +35,39 @@ function orderArray(array){
 
 //point three
 function Coin(array) {
+    
+    array.sort();
+    let cambio = 0;
+    let  array.forEach(element => array {
+            let changeToBeCreated = changeYaCreated + 1;
+            if (item > changeToBeCreated) {
+                return changeToBeCreated;
+                cambio += element;
+            }
+            return cambio + 1;
+        });
+    // private int NonConstructibleChange(List<int> monedas) 
+    // { 
+    //    // Complejidad de tiempo - O(n logn)
+    //     // Complejidad de espacio - O(1)
+       
+    //     monedas.Sort(); 
+    //    int cambioYaCreado = 0; 
+    //    foreach (elemento var en monedas) 
+    //    { 
+    //       int changeToBeCreated = changeYaCreated + 1; 
+    //       if (item > changeToBeCreated) 
+    //             return changeToBeCreated ; 
+    //       cambioYaCreado += elemento; 
+    //    } 
+       
+    //    // si la matriz está vacía, 
+    //    devuelve cambioYaCreado + 1; 
+    // }
+  
+  
+  
+  
     // array.sort();
     // let ncc = 1;
     // for (i=0 ; i < array.length && array[i]<=ncc; i++){
