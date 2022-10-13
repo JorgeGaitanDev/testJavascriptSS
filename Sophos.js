@@ -25,7 +25,6 @@ function orderArray(array){
     let intS = parseInt(s);
     let absValor = array.map(x => {return Math.abs(x)}).sort();
     let potValor = absValor.map(x => {return Math.pow(x,2)}).filter( x => {return x < (intS*10+intS)});
-
     return potValor;
 }
 
@@ -36,12 +35,12 @@ function orderArray(array){
 
 //point three
 function Coin(array) {
-    array.sort();
-    let ncc = 1;
-    for (i=0 ; i < array.length && array[i]<=ncc; i++){
-        ncc +=array[i]
-    }
-    return ncc;
+    // array.sort();
+    // let ncc = 1;
+    // for (i=0 ; i < array.length && array[i]<=ncc; i++){
+    //     ncc +=array[i]
+    // }
+    // return ncc;
 }
 console.log(Coin( [5, 7, 1, 1, 2, 3, 22]));// 20
 console.log(Coin([1, 1, 1, 1, 1]));// 6
